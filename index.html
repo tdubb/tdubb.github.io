@@ -511,7 +511,7 @@
           if (($bar.width() / 6) > 100) {
             $bar.text(100 + "%");
           } else {
-            $bar.text($bar.width() / 6 + "%");
+            $bar.text(Math.round($bar.width() / 6) + "%");
           };
         } else {
           $('.maintainer').width(300);
@@ -524,7 +524,7 @@
           if (($bar.width() / 3) > 100) {
             $bar.text(100 + "%");
           } else {
-            $bar.text($bar.width() / 3 + "%");
+            $bar.text(Math.round($bar.width() / 3) + "%");
           };
         };
         }, 600);
@@ -558,7 +558,7 @@
             if (($bar.width() / 6) > 100) {
               $bar.text(100 + "%");
             } else {
-              $bar.text($bar.width() / 6 + "%");
+              $bar.text(Math.round($bar.width() / 6) + "%");
             };
           } else {
             $('.maintainer').width(300);
@@ -571,7 +571,7 @@
             if (($bar.width() / 3) > 100) {
               $bar.text(100 + "%");
             } else {
-              $bar.text($bar.width() / 3 + "%");
+              $bar.text(Math.round($bar.width() / 3) + "%");
             };
           };
           }, 600);
